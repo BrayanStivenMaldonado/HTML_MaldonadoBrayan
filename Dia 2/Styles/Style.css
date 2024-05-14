@@ -5,7 +5,7 @@ body{
 }
 
 .CajaGrande{
-    width: 850px;
+    width: 900px;
     height: 1000px;
     margin: auto;
     margin-top: 50px;
@@ -93,7 +93,7 @@ body{
     text-align: center;
     position: relative;
     bottom: 1900px;
-    width: 210px;
+    width: 255px;
     height: 950px;
     left: 600px;
     background-color: #79add6;

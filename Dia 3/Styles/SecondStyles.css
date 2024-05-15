@@ -117,3 +117,12 @@ body{
     height: 40px;
     margin-top: -550px; 
 }
+
+#TextoComprar{
+    text-decoration: none;
+    color: black;
+}
+
+#TextoSaldo{
+    color: black;
+}

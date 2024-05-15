@@ -57,7 +57,7 @@ body{
     height: 50px;
     margin-left: 800;
     margin-top: -70;
-    color: black;
+    text-decoration: none;
 }
 
 .CajaGrande .Lupa img{
@@ -110,4 +110,13 @@ body{
     width: 45px;
     height: 40px;
     margin-top: -550px; 
+}
+
+#TextoComprar{
+    color: black;
+}
+
+#TextoSaldo{
+    color: black;
+    text-decoration: none;
 }

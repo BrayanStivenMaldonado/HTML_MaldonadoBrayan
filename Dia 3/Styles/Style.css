@@ -1,10 +1,11 @@
 body{
-    background: linear-gradient(rgb(170, 170, 170),rgb(70, 70, 70));
+    background: linear-gradient(white,grey);
     font-family: sans-serif;
 }
 
 .CajaGrande{
-    margin-left: 20px;
+    margin-left: 300px;
+    margin-top: 150;
     width: 1300px;
     height: 610px;
     background-color: white;

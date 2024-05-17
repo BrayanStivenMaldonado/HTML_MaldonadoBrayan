@@ -1,0 +1,277 @@
+@font-face {
+  font-family: letra;
+  src: url(AmazonFont/Ember/AmazonEmber_Th.ttf);
+}
+@font-face {
+  font-family: ancha;
+  src: url(AmazonFont/Ember/AmazonEmber_Bd.ttf);
+}
+
+@font-face {
+  font-family: cursiva;
+  src: url(AmazonFont/MYRIADPRO-CONDIT.OTF);
+}
+
+body {
+  background-color: black;
+  margin: 0 auto;
+}
+
+.Pagina {
+  margin: 0 auto;
+  width: 1920px;
+  height: 4150px;
+}
+#parte1 {
+  width: 1920px;
+  height: 1080px;
+}
+#parte2 {
+  width: 1792px;
+  height: 567px;
+  background: #00a8e1;
+  margin: 0 64px;
+  margin-top: 26px;
+  margin-bottom: 44px;
+  border-radius: 108px;
+}
+#parte3 {
+  width: 1792px;
+  height: 724px;
+  background: #00a8e1;
+  margin: 0 64px;
+  margin-bottom: 26px;
+  border-radius: 108px;
+}
+
+#parte4 {
+  width: 1792px;
+  height: 567px;
+  background: #00a8e1;
+  margin: 0 64px;
+  margin-bottom: 93px;
+  border-radius: 108px;
+  text-align: center;
+}
+#parte5 {
+  width: 1792px;
+  margin: 0 64px;
+  height: 935px;
+  text-align: center;
+}
+#Fondo {
+  width: 1920px;
+}
+#Search {
+  position: relative;
+  top: -1042px;
+  width: 36px;
+  left: 64px;
+}
+#Login {
+  position: relative;
+  width: 205px;
+  height: 54px;
+  background: white;
+  left: 1695px;
+  top: -1110px;
+  font-family: letra;
+  border-radius: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+#logo {
+  width: 556px;
+  height: 313px;
+  position: relative;
+  top: -987px;
+  left: 682px;
+}
+#Texto1 {
+  position: relative;
+  left: 395px;
+  top: -1100px;
+  font-size: 63px;
+  color: white;
+  font-family: letra;
+}
+#Texto2 {
+  position: relative;
+  left: 380px;
+  top: -1130px;
+  font-size: 31px;
+  color: white;
+  width: 1100px;
+  height: 102px;
+  text-align: center;
+  font-family: letra;
+}
+#SignUp {
+  position: relative;
+  width: 458px;
+  height: 104px;
+  border-radius: 52px;
+  background: white;
+  font-family: letra;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 730px;
+  top: -1130px;
+}
+#Texto3 {
+  color: white;
+  font-size: 60px;
+  position: relative;
+  left: 345px;
+  top: 78px;
+  font-family: letra;
+}
+#tv {
+  position: relative;
+  top: 20px;
+  left: 765px;
+  width: 254px;
+  height: 205px;
+  top: 50px;
+}
+#Texto4 {
+  color: white;
+  font-size: 39px;
+  font-family: letra;
+  position: relative;
+  left: 228px;
+  text-align: center;
+  width: 1308px;
+  top: 30px;
+}
+#Texto5 {
+  position: relative;
+  color: white;
+  font-size: 60px;
+  font-family: letra;
+  left: 71px;
+  top: 56px;
+}
+#peliculas {
+  position: relative;
+  top: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.p {
+  width: 181px;
+  margin: 0 5px;
+}
+#Texto6 {
+  color: white;
+  position: relative;
+  font-family: letra;
+  font-size: 50px;
+  left: 143px;
+  text-align: center;
+  width: 1492px;
+  height: 110px;
+  top: 35px;
+}
+#Texto7 {
+  position: relative;
+  color: white;
+  font-size: 60px;
+  font-family: ancha;
+  top: 79px;
+}
+#Cancel {
+  width: 169px;
+  position: relative;
+  top: 60px;
+}
+#Texto8 {
+  position: relative;
+  color: white;
+  font-size: 40px;
+  font-family: letra;
+  width: 1350px;
+  left: 225px;
+  top: 60px;
+  text-align: center;
+}
+#Texto9 {
+  color: white;
+  position: relative;
+  top: -80px;
+  font-family: letra;
+  font-size: 110px;
+}
+#Texto10 {
+  color: white;
+  font-family: letra;
+  font-size: 45px;
+  position: relative;
+  width: 1550px;
+  top: -200px;
+  left: 110px;
+}
+#disp {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  top: -250px;
+}
+#d1 {
+  width: 256px;
+  height: 219px;
+  position: relative;
+  top: -130px;
+}
+#d2 {
+  width: 584px;
+  height: 534px;
+}
+#d3 {
+  width: 271px;
+  height: 238px;
+  position: relative;
+  top: -130px;
+}
+#f1 {
+  position: relative;
+  top: -250px;
+}
+#f2 {
+  position: relative;
+  top: -250px;
+}
+#Powered {
+  color: white;
+  font-family: cursiva;
+  font-size: 25px;
+  position: relative;
+  top: -38px;
+  left: -90px;
+}
+#firma {
+  width: 440px;
+  height: 251px;
+  position: relative;
+  top: -110px;
+  left: 60px;
+}
+#divisionT2 {
+  height: 75px;
+  position: relative;
+  top: -510px;
+  display: flex;
+  justify-content: center;
+}
+.Pie {
+  color: white;
+  font-size: 30px;
+  margin: 15px;
+  font-family: letra;
+}

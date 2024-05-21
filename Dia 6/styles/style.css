@@ -1,0 +1,30 @@
+.CajaGeneral{
+    width: 1920px;
+    height: 1637px;
+    align-items: center;
+}
+
+#Fondo{
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 1920px;
+    height: 1637px;
+}
+
+.Top{
+    width: 1920px;
+    display: flex;
+    height: 174px;
+    background-color: #3669c9;
+    margin-top: -1642px;
+    margin-left: -8px;
+    position: fixed;
+}
+
+.Middle{
+    width: 1545px;
+    height: 1225px;
+    background-color: black;
+    border-radius: 50px;
+}
+

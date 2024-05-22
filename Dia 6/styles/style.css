@@ -2,6 +2,7 @@
   font-family: letraL;
   src: url(Fonts/MyriadPro-Light.otf);
 }
+
 @font-face {
   font-family: letraR;
   src: url(Fonts/MYRIADPRO-REGULAR.OTF);
@@ -11,19 +12,23 @@ body {
   margin: 0px 0px;
   font-family: letraR;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 .pag {
   margin: 0 auto;
   width: 1920px;
   height: 1637px;
   overflow: hidden;
 }
+
 #fondo {
   width: 1920px;
   height: 1638px;
 }
+
 #cabecera {
   display: flex;
   margin: 0px 20px;
@@ -41,10 +46,12 @@ html {
   float: right;
   z-index: 1;
 }
+
 #cabecera img,
 p {
   margin: 0 60px;
 }
+
 #consultar {
   background: #fff;
   width: 248px;
@@ -55,11 +62,13 @@ p {
   border-radius: 30px;
   margin-right: 107px;
 }
+
 #logo {
   width: 349px;
   height: 69px;
   padding: 0 80px;
 }
+
 #cont {
   width: 1545px;
   height: 1225px;
@@ -71,11 +80,13 @@ p {
   text-align: center;
   justify-content: center;
 }
+
 #dian {
   width: 313px;
   height: 53px;
   padding-top: 51px;
 }
+
 #text1 {
   margin: 0 auto;
   font-size: 26px;
@@ -83,16 +94,19 @@ p {
   height: 64px;
   padding-top: 33px;
 }
+
 #muisca {
   padding-top: 17px;
   width: 231px;
   height: 77px;
 }
+
 #ND {
   font-size: 21px;
   position: relative;
   left: -297px;
 }
+
 #nDocumento {
   margin-top: 8px;
   width: 792px;
@@ -100,15 +114,18 @@ p {
   font-size: 40px;
   opacity: 0.8;
 }
+
 #nDocumento:focus {
   outline: none;
 }
+
 #FE {
   font-size: 21px;
   position: relative;
   left: -242px;
   margin-top: 32px;
 }
+
 #nExpedicion {
   margin-top: 8px;
   width: 792px;
@@ -117,6 +134,7 @@ p {
   opacity: 0.8;
   margin-left: 37px;
 }
+
 #calendar {
   width: 37px;
   height: 43px;
@@ -125,6 +143,7 @@ p {
   top: 8px;
   background: #fff;
 }
+
 #captcha {
   width: 382px;
   height: 83px;
@@ -137,19 +156,23 @@ p {
   align-items: center;
   font-size: 25px;
 }
+
 #confi {
   position: relative;
   left: 15px;
   transform: scale(3.5);
 }
+
 #IC {
   height: 50px;
 }
+
 #peque {
   font-family: letraL;
   font-size: 11px;
   margin-top: 28px;
 }
+
 #consultar2 {
   margin: auto;
   font-size: 15px;
@@ -157,6 +180,7 @@ p {
   color: #fff;
   text-decoration: none;
 }
+
 #cCons {
   margin: auto;
   width: 165px;
@@ -166,6 +190,7 @@ p {
   align-content: center;
   text-align: center;
 }
+
 #submit {
   background: #157ffb;
   border-radius: 30px;
@@ -176,22 +201,27 @@ p {
   outline: none;
   border: none;
 }
+
 #pregunta {
   margin-top: 28px;
   font-size: 35px;
 }
+
 #tramite {
   display: flex;
   text-align: center;
   justify-content: center;
 }
+
 #contrat {
   width: 63px;
   height: 84px;
 }
+
 #TR {
   font-size: 35px;
 }
+
 #textTR {
   text-align: center;
   font-size: 17px;
@@ -199,6 +229,7 @@ p {
   width: 460px;
   height: 86px;
 }
+
 #bTamitarR {
   margin: auto;
   width: 220px;
@@ -207,22 +238,27 @@ p {
   border-radius: 30px;
   align-content: center;
 }
+
 #tTramitarR {
   color: #fff;
   text-decoration: none;
   font-size: 19px;
 }
+
 #signature {
-  margin-top: 25px;
+  margin-top: 20px;
   width: 102px;
   height: 62px;
   margin-bottom: 5px;
 }
+
 #TF {
   font-size: 35px;
   width: 380px;
   height: 35px;
+  margin-top: -5px;
 }
+
 #textTF {
   margin: auto;
   text-align: center;
@@ -230,7 +266,9 @@ p {
   font-family: letraL;
   width: 282px;
   height: 86px;
+  margin-top: 30px;
 }
+
 #bTamitarF {
   margin: auto;
   width: 220px;
@@ -238,16 +276,21 @@ p {
   background: #157ffb;
   border-radius: 30px;
   align-content: center;
+  margin-top: -5px;
 }
+
 #tTramitarF {
   color: #fff;
   text-decoration: none;
   font-size: 19px;
 }
+
 #firma {
   position: relative;
+  margin-top: -25px;
   left: -20px;
 }
+
 #fin {
   display: flex;
   width: 1920px;
@@ -258,29 +301,35 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 #logoF {
   width: 287px;
   height: 58px;
   margin: 0 150px;
 }
+
 #f1 {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #location {
   width: 21px;
   height: 30px;
 }
+
 #f3 {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #phone {
   width: 30px;
   height: 30px;
 }
+
 /*--------------------------TramitarRut.html-------------------------------------*/
 
 .pagTR {
@@ -289,12 +338,14 @@ p {
   height: 1254px;
   overflow: hidden;
 }
+
 #fondoTR {
   width: 1920px;
   height: 1080px;
   position: relative;
   top: 174px;
 }
+
 #cabeceraTR {
   display: flex;
   margin: 0px 20px;
@@ -312,10 +363,12 @@ p {
   float: right;
   z-index: 1;
 }
+
 #cabeceraTR img,
 p {
   margin: 0 60px;
 }
+
 #consultarTR {
   background: #fff;
   width: 248px;
@@ -326,11 +379,13 @@ p {
   border-radius: 30px;
   margin-right: 107px;
 }
+
 #logoTR {
   width: 349px;
   height: 69px;
   padding: 0 80px;
 }
+
 #contTR {
   width: 1545px;
   height: 870px;
@@ -342,6 +397,7 @@ p {
   text-align: center;
   justify-content: center;
 }
+
 #finTR {
   display: flex;
   width: 1920px;
@@ -352,29 +408,35 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 #logoFTR {
   width: 287px;
   height: 58px;
   margin: 0 150px;
 }
+
 #f1TR {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #locationTR {
   width: 21px;
   height: 30px;
 }
+
 #f3TR {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #phoneTR {
   width: 30px;
   height: 30px;
 }
+
 #captchaTR {
   width: 382px;
   height: 83px;
@@ -387,19 +449,23 @@ p {
   align-items: center;
   font-size: 25px;
 }
+
 #confiTR {
   position: relative;
   left: 15px;
   transform: scale(3.5);
 }
+
 #ICTR {
   height: 50px;
 }
+
 #pequeTR {
   font-family: letraL;
   font-size: 11px;
   margin-top: 10px;
 }
+
 #cAgen {
   margin: auto;
   width: 165px;
@@ -410,6 +476,7 @@ p {
   text-align: center;
   margin-top: -5px;
 }
+
 #submitTR {
   background: #157ffb;
   border-radius: 30px;
@@ -420,11 +487,13 @@ p {
   outline: none;
   border: none;
 }
+
 #dianTR {
   width: 313px;
   height: 53px;
   margin-top: 50px;
 }
+
 #text1TR {
   font-size: 26px;
   width: 796px;
@@ -432,6 +501,7 @@ p {
   margin: auto;
   margin-top: 33px;
 }
+
 #muiscaTR {
   width: 231px;
   height: 77px;
@@ -443,6 +513,7 @@ p {
   position: relative;
   left: -297px;
 }
+
 #inputNDocumentoTR {
   margin-top: 8px;
   width: 792px;
@@ -450,15 +521,18 @@ p {
   font-size: 40px;
   opacity: 0.8;
 }
+
 #inputNDocumentoTR:focus {
   outline: none;
 }
+
 #fechaETR {
   font-size: 21px;
   position: relative;
   left: -242px;
   margin-top: 17px;
 }
+
 #inputfechaETR {
   margin-top: 8px;
   width: 792px;
@@ -466,12 +540,14 @@ p {
   font-size: 40px;
   opacity: 0.8;
 }
+
 #fechaCTR {
   font-size: 21px;
   position: relative;
   left: -312px;
   margin-top: 8px;
 }
+
 #inputfechaCTR {
   margin-top: 8px;
   width: 792px;
@@ -479,6 +555,7 @@ p {
   font-size: 40px;
   opacity: 0.8;
 }
+
 #imgTR1 {
   width: 37px;
   height: 43px;
@@ -487,6 +564,7 @@ p {
   left: 395px;
   background: #fff;
 }
+
 #imgTR2 {
   width: 37px;
   height: 43px;
@@ -495,6 +573,7 @@ p {
   left: 355px;
   background: #fff;
 }
+
 /*-----------------------------TramitarFirma.html--------------------------------------*/
 
 .pagTF {
@@ -503,12 +582,14 @@ p {
   height: 1184px;
   overflow: hidden;
 }
+
 #fondoTF {
   width: 1920px;
   height: 1010px;
   position: relative;
   top: 174px;
 }
+
 #cabeceraTF {
   display: flex;
   margin: 0px 20px;
@@ -526,10 +607,12 @@ p {
   float: right;
   z-index: 1;
 }
+
 #cabeceraTF img,
 p {
   margin: 0 60px;
 }
+
 #consultarTF {
   background: #fff;
   width: 248px;
@@ -540,11 +623,13 @@ p {
   border-radius: 30px;
   margin-right: 107px;
 }
+
 #logoTF {
   width: 349px;
   height: 69px;
   padding: 0 80px;
 }
+
 #contTF {
   width: 1545px;
   height: 782px;
@@ -556,6 +641,7 @@ p {
   text-align: center;
   justify-content: center;
 }
+
 #finTF {
   display: flex;
   width: 1920px;
@@ -566,57 +652,69 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 #logoFTF {
   width: 287px;
   height: 58px;
   margin: 0 150px;
 }
+
 #f1TF {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #locationTF {
   width: 21px;
   height: 30px;
 }
+
 #f3TF {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #phoneTF {
   width: 30px;
   height: 30px;
 }
+
 #dianTF {
   width: 313px;
   height: 53px;
   margin-top: 50px;
 }
+
 #signatureTF {
   width: 71px;
   height: 43px;
   margin-top: 13px;
 }
+
 #text1TF {
   font-size: 24px;
   margin-top: 13px;
 }
+
 #text2TF {
   font-size: 23px;
   margin-top: 32px;
 }
+
 #muiscaTF {
   width: 231px;
   height: 77px;
   margin-top: 17px;
 }
+
 #nDocumentoTF {
   font-size: 21px;
   position: relative;
   left: -297px;
 }
+
 #inputNDocumentoTF {
   margin-top: 8px;
   width: 792px;
@@ -624,15 +722,18 @@ p {
   font-size: 40px;
   opacity: 0.8;
 }
+
 #inputNDocumentoTF:focus {
   outline: none;
 }
+
 #fechaETF {
   font-size: 21px;
   position: relative;
   left: -242px;
   margin-top: 17px;
 }
+
 #inputfechaETF {
   margin-top: 8px;
   width: 792px;
@@ -640,6 +741,7 @@ p {
   font-size: 40px;
   opacity: 0.8;
 }
+
 #continuar {
   margin: auto;
   margin-top: 67px;
@@ -649,12 +751,14 @@ p {
   border-radius: 30px;
   align-content: center;
 }
+
 #submitTF {
   color: #fff;
   background: #157ffb;
   border: none;
   font-size: 29px;
 }
+
 /*------------------------Contraseña.html-------------------------*/
 .pagContra {
   margin: 0 auto;
@@ -662,12 +766,14 @@ p {
   height: 1254px;
   overflow: hidden;
 }
+
 #fondoContra {
   width: 1920px;
   height: 1080px;
   position: relative;
   top: 174px;
 }
+
 #cabeceraContra {
   display: flex;
   margin: 0px 20px;
@@ -685,10 +791,12 @@ p {
   float: right;
   z-index: 1;
 }
+
 #cabeceraContra img,
 p {
   margin: 0 60px;
 }
+
 #consultarContra {
   background: #fff;
   width: 248px;
@@ -699,11 +807,13 @@ p {
   border-radius: 30px;
   margin-right: 107px;
 }
+
 #logoContra {
   width: 349px;
   height: 69px;
   padding: 0 80px;
 }
+
 #contContra {
   width: 1545px;
   height: 870px;
@@ -715,6 +825,7 @@ p {
   text-align: center;
   justify-content: center;
 }
+
 #finContra {
   display: flex;
   width: 1920px;
@@ -725,52 +836,63 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 #logoFContra {
   width: 287px;
   height: 58px;
   margin: 0 150px;
 }
+
 #f1Contra {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #locationContra {
   width: 21px;
   height: 30px;
 }
+
 #f3Contra {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #phoneContra {
   width: 30px;
   height: 30px;
 }
+
 #dianContra {
   width: 313px;
   height: 53px;
   margin-top: 50px;
 }
+
 #signatureContra {
   width: 71px;
   height: 43px;
   margin-top: 13px;
 }
+
 #text1Contra {
   font-size: 24px;
   margin-top: 13px;
 }
+
 #text2Contra {
   font-size: 26px;
   margin-top: 13px;
 }
+
 #text3Contra {
   font-size: 15px;
   margin-top: 13px;
   font-family: letraL;
 }
+
 #check1 {
   font-family: letraL;
   font-size: 15px;
@@ -779,12 +901,14 @@ p {
   width: 501px;
   padding-left: 170px;
 }
+
 #check1 p {
   width: 295px;
   position: relative;
   left: -50px;
   top: -5px;
 }
+
 #check2 {
   font-family: letraL;
   font-size: 15px;
@@ -793,12 +917,14 @@ p {
   width: 350px;
   padding-left: 100px;
 }
+
 #check2 p {
   width: 215px;
   position: relative;
   left: -50px;
   top: -5px;
 }
+
 #check3 {
   width: 770px;
   font-family: letraL;
@@ -807,12 +933,14 @@ p {
   margin: auto;
   padding-left: 120px;
 }
+
 #check3 p {
   width: 640px;
   position: relative;
   left: -55px;
   top: -5px;
 }
+
 #check4 {
   font-family: letraL;
   font-size: 15px;
@@ -821,12 +949,14 @@ p {
   width: 618px;
   padding-left: 120px;
 }
+
 #check4 p {
   width: 500px;
   position: relative;
   left: -50px;
   top: -5px;
 }
+
 #check5 {
   font-family: letraL;
   font-size: 15px;
@@ -835,37 +965,45 @@ p {
   width: 840px;
   padding-left: 120px;
 }
+
 #check5 p {
   width: 710px;
   position: relative;
   left: -50px;
   top: -5px;
 }
+
 #iconCheck1 {
-  width: 9px;
+  width: 10px;
   height: 7px;
 }
+
 #iconCheck2 {
   width: 9px;
   height: 7px;
 }
+
 #iconCheck3 {
   width: 9px;
   height: 7px;
 }
+
 #iconCheck4 {
-  width: 9px;
+  width: 12px;
   height: 7px;
 }
+
 #iconCheck5 {
   width: 9px;
   height: 7px;
 }
+
 #contraseña {
   font-size: 21px;
   position: relative;
   left: -350px;
 }
+
 #inputContraseña {
   margin-top: 8px;
   width: 792px;
@@ -873,15 +1011,18 @@ p {
   font-size: 40px;
   opacity: 0.8;
 }
+
 #inputContraseña:focus {
   outline: none;
 }
+
 #vContraseña {
   font-size: 21px;
   position: relative;
   left: -265px;
   margin-top: 10px;
 }
+
 #inputvContraseña {
   margin-top: 15px;
   width: 792px;
@@ -889,9 +1030,11 @@ p {
   font-size: 40px;
   opacity: 0.8;
 }
+
 #inputvContraseña:focus {
   outline: none;
 }
+
 #captchaContra {
   width: 382px;
   height: 83px;
@@ -905,19 +1048,23 @@ p {
   font-size: 25px;
   margin-top: 21px;
 }
+
 #confiContra {
   position: relative;
   left: 15px;
   transform: scale(3.5);
 }
+
 #ICContra {
   height: 50px;
 }
+
 #pequeContra {
   font-family: letraL;
   font-size: 11px;
   margin-top: 10px;
 }
+
 #cCrearContra {
   margin: auto;
   width: 165px;
@@ -926,8 +1073,9 @@ p {
   border-radius: 30px;
   align-content: center;
   text-align: center;
-  margin-top: -5px;
+  margin-top: -15px;
 }
+
 #submitContra {
   background: #157ffb;
   border-radius: 30px;
@@ -947,12 +1095,14 @@ p {
   height: 1254px;
   overflow: hidden;
 }
+
 #fondoComplet {
   width: 1920px;
   height: 1080px;
   position: relative;
   top: 174px;
 }
+
 #cabeceraComplet {
   display: flex;
   margin: 0px 20px;
@@ -970,10 +1120,12 @@ p {
   float: right;
   z-index: 1;
 }
+
 #cabeceraComplet img,
 p {
   margin: 0 60px;
 }
+
 #consultarComplet {
   background: #fff;
   width: 248px;
@@ -984,11 +1136,13 @@ p {
   border-radius: 30px;
   margin-right: 107px;
 }
+
 #logoComplet {
   width: 349px;
   height: 69px;
   padding: 0 80px;
 }
+
 #contComplet {
   width: 1545px;
   height: 870px;
@@ -1000,6 +1154,7 @@ p {
   text-align: center;
   justify-content: center;
 }
+
 #finComplet {
   display: flex;
   width: 1920px;
@@ -1010,52 +1165,63 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 #logoFComplet {
   width: 287px;
   height: 58px;
   margin: 0 150px;
 }
+
 #f1Complet {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #locationComplet {
   width: 21px;
   height: 30px;
 }
+
 #f3Complet {
   text-align: center;
   color: #fff;
   font-size: 20px;
 }
+
 #phoneComplet {
   width: 30px;
   height: 30px;
 }
+
 #dianComplet {
   width: 313px;
   height: 53px;
   margin-top: 49px;
 }
+
 #ios {
   width: 231px;
   height: 231px;
   margin-top: 66px;
 }
+
 #text1Complet {
   font-size: 39px;
   margin-top: 39px;
 }
+
 #text2Complet {
   font-size: 35px;
   margin-top: 34px;
 }
+
 #muiscaComplet {
   width: 264px;
   height: 88px;
   margin-top: 10px;
 }
+
 #dPrincipal {
   width: 311px;
   height: 79px;
@@ -1064,6 +1230,7 @@ p {
   align-content: center;
   margin: auto;
 }
+
 #principal {
   font-size: 23px;
   color: #fff;

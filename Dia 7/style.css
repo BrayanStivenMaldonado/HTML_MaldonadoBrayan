@@ -1,0 +1,311 @@
+@font-face {
+  font-family: letra;
+  src: url(AmazonFont/Ember/AmazonEmber_Th.ttf);
+}
+
+@font-face {
+  font-family: ancha;
+  src: url(AmazonFont/Ember/AmazonEmber_Bd.ttf);
+}
+
+@font-face {
+  font-family: cursiva;
+  src: url(AmazonFont/MYRIADPRO-CONDIT.OTF);
+}
+
+body {
+  background-color: black;
+  margin: 0 auto;
+}
+
+#Fondo {
+  width: 100%
+}
+
+.Pagina {
+  margin: 0 auto;
+  width: 100%;
+  height: 415vh;
+  overflow: hidden;
+}
+
+#parte1 {
+  width: 100vw;
+  height: 108vh;
+}
+
+#parte2 {
+  width: 93.333vw;
+  height: 56.7vh;
+  background: #00a8e1;
+  margin: 0 64px;
+  margin-top: 26px;
+  margin-bottom: 44px;
+  border-radius: 108px;
+}
+
+#parte3 {
+  width: 93.333vw;
+  height: 72.4vh;
+  background: #00a8e1;
+  margin: 0 64px;
+  margin-bottom: 26px;
+  border-radius: 108px;
+}
+
+#parte4 {
+  width: 93.333vw;
+  height: 56.7vh;
+  background: #00a8e1;
+  margin: 0 64px;
+  margin-bottom: 93px;
+  border-radius: 108px;
+  text-align: center;
+}
+
+#parte5 {
+  width: 93.333vw;
+  height: 93.5vh;
+  margin: 0 64px;
+  text-align: center;
+}
+
+#Search {
+  position: absolute;
+  top: 3.8vh;
+  left: 3.333vw;
+  width: 1.875vw;
+}
+
+#Login {
+  position: absolute;
+  width: 10.677vw;
+  height: 5.4vh;
+  background: white;
+  left: 88.281vw;
+  top: 3.8vh;
+  font-family: letra;
+  border-radius: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+#logo {
+  position: relative;
+  width: 28.958vw;
+  height: 31.3vh;
+  top: -98.7vh;
+  left: 35.781vw;
+}
+
+#Texto1 {
+  position: relative;
+  left: 21.875vw;
+  top: -110vh;
+  font-size: 6.3vh;
+  color: white;
+  font-family: letra;
+}
+
+#Texto2 {
+  position: relative;
+  left: 21.094vw;
+  top: -113vh;
+  font-size: 3.1vh;
+  color: white;
+  width: 57.292vw;
+  height: 10.2vh;
+  text-align: center;
+  font-family: letra;
+}
+
+#SignUp {
+  position: relative;
+  width: 23.854vw;
+  height: 10.4vh;
+  border-radius: 52px;
+  background: white;
+  font-family: letra;
+  font-size: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 37.24vw;
+  top: -112.8vh;
+}
+
+#Texto3 {
+  color: white;
+  font-size: 6vh;
+  position: relative;
+  left: 17.969vw;
+  top: 7.8vh;
+  font-family: letra;
+}
+
+#tv {
+  position: relative;
+  left: 39.844vw;
+  top: 4vh;
+  width: 13.229vw;
+  height: 20.5vh;
+}
+
+#Texto4 {
+  color: white;
+  font-size: 3.9vh;
+  font-family: letra;
+  position: relative;
+  left: 11.875vw;
+  text-align: center;
+  width: 68.125vw;
+  top: 3vh;
+}
+
+#Texto5 {
+  position: relative;
+  color: white;
+  font-size: 6vh;
+  font-family: letra;
+  left: 3.698vw;
+  top: 5.6vh;
+}
+
+#Peliculas {
+  position: relative;
+  top: 4vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Movies {
+  width: 9.427vw;
+  margin: 0 5px;
+}
+
+#Texto6 {
+  color: white;
+  position: relative;
+  font-family: letra;
+  font-size: 5vh;
+  left: 7.448vw;
+  text-align: center;
+  width: 77.708vw;
+  height: 11vh;
+  top: 3.5vh;
+}
+
+#Texto7 {
+  position: relative;
+  color: white;
+  font-size: 6vh;
+  font-family: ancha;
+  top: 7.9vh;
+}
+
+#Cancel {
+  position: relative;
+  width: 8.802vw;
+  top: 6vh;
+}
+
+#Texto8 {
+  position: relative;
+  color: white;
+  font-size: 4vh;
+  font-family: letra;
+  width: 1350px;
+  left: 225px;
+  top: 60px;
+  text-align: center;
+}
+
+#Texto9 {
+  color: white;
+  position: relative;
+  top: -8vh;
+  font-family: letra;
+  font-size: 11vh;
+}
+
+#Texto10 {
+  color: white;
+  font-family: letra;
+  font-size: 45px;
+  position: relative;
+  width: 1550px;
+  top: -200px;
+  left: 110px;
+}
+
+#CajaMedio {
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  top: -250px;
+}
+
+#iPhone {
+  width: 256px;
+  height: 219px;
+  position: relative;
+  top: -130px;
+}
+
+#Mac {
+  width: 584px;
+  height: 534px;
+}
+
+#Pc {
+  width: 271px;
+  height: 238px;
+  position: relative;
+  top: -130px;
+}
+
+#Left {
+  position: relative;
+  top: -250px;
+}
+
+#Right {
+  position: relative;
+  top: -250px;
+}
+
+#Powered {
+  color: white;
+  font-family: cursiva;
+  font-size: 25px;
+  position: relative;
+  top: -38px;
+  left: -90px;
+}
+
+#Firma {
+  width: 22.917vw;
+  height: 25.1vh;
+  position: relative;
+  top: -11vh;
+  left: 60px;
+}
+
+#divisionT2 {
+  height: 7.5vh;
+  position: relative;
+  top: -51vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Pie {
+  color: white;
+  font-size: 3vh;
+  margin: 15px;
+  font-family: letra;
+}

@@ -19,13 +19,16 @@ body{
     width: 20vw;
     margin-left: 140vh;
     animation-name: Solecito;
-    animation-duration: 5s;
+    animation-duration: 19s;
     position: relative;
-    animation-iteration-count: infinite;
+    margin-top: 5vh;
 }
 
 @keyframes Solecito {
     0% {opacity: 20%;}
+    25% {opacity: 20%;}
+    50% {opacity: 10%;}
+    90% {opacity: 100%;}
     100%{opacity: 100%;}
     
 }
@@ -35,14 +38,131 @@ body{
     width: 25vw;
     height: 30vh;
     animation-name: Nubecita;
-    animation-duration: 6s;
+    animation-duration: 19s;
     position: relative;
     display: flex;
-    animation-iteration-count: infinite;
+    left: 200vh;
 }
 
 @keyframes Nubecita {
-    from {left: 190vh;}
-    to{left: -60vh;}
+    0% {left: 200vh;}
+    30% {left: 200vh;}
+    40%{left: 28vh;}
+    55%{left: 28vh;}
+    90%{left: -55vh;}
+    100% {left: -60vh;}
     
+}
+
+#Flor{
+    width: 7vw;
+    margin-left: -47vw;
+    margin-top: 14vh;
+    animation-name: Florecita;
+    animation-duration: 15s;
+}
+
+@keyframes Florecita{
+    0%{margin-top: 36vh;}
+    85%{margin-top: 36vh;}
+    100%{margin-top: 14vh;}
+}
+
+.uno{
+    position: absolute;
+    top: 80vh;
+    left: 48%;
+    color: black;
+    opacity: 0;
+    animation-name: Counter;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+.dos{
+    position: absolute;
+    top: 80vh;
+    left: 48%;
+    color: black;
+    opacity: 0;
+    animation-name: Counter;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+.tres{
+    position: absolute;
+    top: 80vh;
+    left: 48%;
+    color: black;
+    opacity: 0;
+    animation-name: Counter;
+    animation-duration: 1s;
+}
+.accion{
+    position: absolute;
+    top: 80vh;
+    left: 46%;
+    color: black;
+    opacity: 0;
+    animation-name: Counter;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+@keyframes Counter {
+    0%{opacity: 0; transform: translateY(0vh) ;}
+    90%{opacity: 1;}
+    100%{opacity: 0;transform: translateY(-12vh);}
+}
+
+#Lluvia1{
+    position: absolute;
+    width: 10vw;
+    top: 28vh;
+    left: 21vw;
+    opacity: 0;
+    animation-delay: 8s;
+    animation-duration: 2s;
+    animation-name: Lluvia1;
+}
+@keyframes Lluvia1 {
+    from {opacity: 0;}
+    to{opacity: 100; top: 110vh; }
+    
+}
+#Lluvia2{
+    position: absolute;
+    width: 10vw;
+    top: 28vh;
+    left: 21vw;
+    opacity: 0;
+    animation-delay: 8s;
+    animation-duration: 2s;
+    animation-name: Lluvia2;
+}
+@keyframes Lluvia2 {
+    from{opacity: 0;}
+    to{opacity: 60; top: 110vh;}
+} 
+#Lluvia3{
+
+    position: absolute;
+    width: 10vw;
+    top: 28vh;
+    left: 21vw;
+    opacity: 0;
+    animation-delay: 8.3s;
+    animation-duration: 2s;
+    animation-name: Lluvia3;
+}
+@keyframes Lluvia3 {
+    from{opacity: 0;}
+    to{opacity: 80; top: 110vh;}
+} 
+
+#Casa{
+    width: 25vw;
+    position: absolute;
+    left: 75vw;
+    top: 65vh;
 }

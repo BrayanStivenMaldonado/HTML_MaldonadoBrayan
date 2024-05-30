@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+}
+
+.General {
+    width: 100vw;
+    height: 100vh;
+    background-color: #eeedf2;
+}
+
+.Top{
+    width: 100vw;
+    height: 10vh;
+    background-color: #fefefe;
+}
+#Menu{
+    position: relative;
+    width: 2vw;
+    left: 6vw;
+    top: 1.8vw;
+}
+
+.Left{
+    width: 5.208vw;
+    height: 90vh;
+    background-color: #fefefe;
+}
+
+.Center{
+    display: flex;
+    align-items: start;
+    text-align: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+
+#Dashboard{
+    margin-top: -86vh;
+    margin-left: -78vw;
+}

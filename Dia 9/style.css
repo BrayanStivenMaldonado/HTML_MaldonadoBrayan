@@ -1,22 +1,48 @@
 body{
-    background-color: black;
+    margin: auto;
 }
 
-.animar{
-    background-color: red;
-    width: 100px;
-    height: 100px;
+.Section{
+    width: 100vw;
+    height: 108vh;
+    max-width: 100vw;
+    max-height: 108vh;
+    background-image: url(media/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    position: relative;
+    font-size: 4vh;
 }
 
-@keyframes example{
-from {background-color: red; left: 500px; top:0px}
-to {background-color: blue; left: 500px; top: 800px}
+#Sol{
+    width: 20vw;
+    margin-left: 140vh;
+    animation-name: Solecito;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Solecito {
+    0% {opacity: 20%;}
+    100%{opacity: 100%;}
+    
+}
+
+#Nube{
+    top: -32vh;
+    width: 25vw;
+    height: 30vh;
+    animation-name: Nubecita;
+    animation-duration: 6s;
+    position: relative;
+    display: flex;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Nubecita {
+    from {left: 190vh;}
+    to{left: -60vh;}
+    
 }

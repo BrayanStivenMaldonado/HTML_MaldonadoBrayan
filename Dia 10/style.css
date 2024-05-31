@@ -1,40 +1,82 @@
+@font-face {
+    font-family: Letra;
+    src: url(media/Font/HoxtonNorthTrial-Bold-BF63c8981406eaa.otf);
+}
+
 body {
     margin: auto;
+    font-family: Letra;
 }
 
 .General {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: #eeedf2;
+    display: flex;
+}
+
+.SideBar{
+    width: 6rem;
+    height: 59.05rem;
+    background-color: #fefefe;
+}
+
+.Container{
+    width: 100%;
+    height: 59.05rem;
+    background-color: #b8b8b880;
+    display: flex;
 }
 
 .Top{
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    height: 6rem;
     background-color: #fefefe;
-}
-#Menu{
-    position: relative;
-    width: 2vw;
-    left: 6vw;
-    top: 1.8vw;
-}
-
-.Left{
-    width: 5.208vw;
-    height: 90vh;
-    background-color: #fefefe;
-}
-
-.Center{
+    align-items: center;
     display: flex;
-    align-items: start;
-    text-align: center;
-    justify-content: center;
-    font-size: 1vw;
+    position: relative;
+}
+#Chiquito{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin-left: 95%;
+    position: absolute;
+}
+#IconMenu{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
-#Dashboard{
-    margin-top: -86vh;
-    margin-left: -78vw;
+#Agrandar{
+    display: none;
+}
+ 
+#Agrandar:checked+.SideBar{
+    width: 20rem;
+    height: 59.05rem;   
+    animation-name: mostrar;
+    animation-duration: 0.5s;
+}
+@keyframes mostrar {
+    from{width: 6rem; height: 59.05rem;}
+    to{width: 20rem;height: 59.05rem;}
+}
+
+#Dash{
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 1.5rem;
+    font-size: 2.6rem;
+}
+
+.Cajas{
+    position: absolute;
+    display: flex;
+    background-color: yellow;
+    width: 110rem;
+    height: 10rem;
+    margin-top: 17rem;
 }

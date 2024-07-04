@@ -1,0 +1,112 @@
+body {
+    font-family: 'Alfa Slab One', cursive;
+    font-size:6rem;
+    background:#2c333a;
+  }
+
+.Caja{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 3rem;
+}
+
+.U{
+    animation-name: U;
+    animation-duration: 5s;
+    animation-delay: 0.2s;
+    transform: rotateX(180deg);
+    color: #8898a2;
+}
+
+@keyframes U {
+    10% {transform: rotateX(80deg);}
+    50% {transform: rotateX(0deg);}
+    100% {transform: rotateX(180deg);}
+}
+
+.P{
+    animation-name: P;
+    animation-duration: 5s;
+    animation-delay: 0.4s;
+    transform: rotateX(180deg);
+    color: #80bfb2;
+}
+
+@keyframes P {
+    10% {transform: rotateX(80deg);}
+    50% {transform: rotateX(0deg);}
+    100% {transform: rotateX(180deg);}
+}
+
+.Y{
+    animation-name: Y;
+    animation-duration: 5s;
+    animation-delay: 0.6s;
+    transform: rotateX(180deg);
+    margin: -2rem;
+    color: #8898a2;
+}
+
+@keyframes Y {
+    10% {transform: rotateX(80deg);}
+    50% {transform: rotateX(0deg);}
+    100% {transform: rotateX(180deg);}
+}
+
+.O{
+    animation-name: O;
+    animation-duration: 5s;
+    animation-delay: 0.8s;
+    transform: rotateX(180deg);
+    color: #80bfb2;
+}
+
+@keyframes O {
+    10% {transform: rotateX(80deg);}
+    50% {transform: rotateX(0deg);}
+    100% {transform: rotateX(180deg);}
+}
+
+.V{
+    animation-name: V;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    transform: rotateX(180deg);
+    color: #8898a2;
+}
+
+@keyframes V {
+    10% {transform: rotateX(80deg);}
+    50% {transform: rotateX(0deg);}
+    100% {transform: rotateX(180deg);}
+}
+
+.E{
+    animation-name: E;
+    animation-duration: 5s;
+    animation-delay: 1.2s;
+    transform: rotateX(180deg);
+    color: #80bfb2;
+}
+
+@keyframes E {
+    10% {transform: rotateX(80deg);}
+    50% {transform: rotateX(0deg);}
+    100% {transform: rotateX(180deg);}
+}
+
+.R{
+    animation-name: R;
+    animation-duration: 5s;
+    animation-delay: 1.4s;
+    transform: rotateX(180deg);
+    color: #8898a2;
+}
+
+@keyframes R {
+    10% {transform: rotateX(80deg);}
+    50% {transform: rotateX(0deg);}
+    100% {transform: rotateX(180deg);}
+}
+

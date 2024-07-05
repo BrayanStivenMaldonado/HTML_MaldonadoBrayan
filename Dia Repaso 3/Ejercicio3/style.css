@@ -2,6 +2,7 @@ body{
     margin: 0%;
     width: 100vw;
     overflow: hidden;
+    font-family: 'Alfa Slab One', cursive;
 }
 #Mostrar{
     margin-top: 12rem;
@@ -91,4 +92,49 @@ body{
     100%{
         left: -20rem;
     }
+}
+
+#Menu{
+    width: 5rem;
+    cursor: pointer;
+}
+
+#Boton{
+    display: none;
+}
+
+.Desplegar{
+    z-index: 1;
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    overflow: hidden;
+    margin-top: -11.5rem;
+    margin-left: 0.5rem;
+}
+
+.Desplegar a{
+    padding: 0.1rem;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.Desplegar a:hover{
+    color: rgb(114, 60, 60);
+}
+
+#Boton:checked+.Desplegar{
+    width: 11rem;
+    height: 18rem;  
+    animation-name: mostrar;
+    animation-duration: 0.1s;
+}
+
+@keyframes mostrar {
+    from{width: 5rem; height: 5rem;}
+    to{width: 11rem; height: 18rem;}
 }

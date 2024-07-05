@@ -3,6 +3,7 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 .Nube1{
@@ -35,4 +36,47 @@ body{
     0% {left: -14vw;}
     95% {left: 100vw;}
     100%{left: 110vw;}
+}
+
+
+#Menu{
+    width: 5rem;
+    cursor: pointer;
+}
+
+#Boton{
+    display: none;
+}
+
+.Desplegar{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.Desplegar a{
+    padding: 0.1rem;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.Desplegar a:hover{
+    color: white;
+}
+
+#Boton:checked+.Desplegar{
+    width: 11rem;
+    height: 18rem;  
+    animation-name: mostrar;
+    animation-duration: 0.1s;
+}
+
+@keyframes mostrar {
+    from{width: 5rem; height: 5rem;}
+    to{width: 11rem; height: 18rem;}
 }

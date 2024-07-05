@@ -1,6 +1,7 @@
 body{
     background-color: #f8e4cc;
     overflow: hidden;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 .Caja{
@@ -70,4 +71,47 @@ p{
     100%{
         top: 7rem;
     }
+}
+
+#Menu{
+    width: 5rem;
+    cursor: pointer;
+}
+
+#Boton{
+    display: none;
+}
+
+.Desplegar{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    overflow: hidden;
+
+}
+
+.Desplegar a{
+    padding: 0.1rem;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.Desplegar a:hover{
+    color: #f4546c;
+}
+
+#Boton:checked+.Desplegar{
+    width: 11rem;
+    height: 18rem;  
+    animation-name: mostrar;
+    animation-duration: 0.1s;
+}
+
+@keyframes mostrar {
+    from{width: 5rem; height: 5rem;}
+    to{width: 11rem; height: 18rem;}
 }

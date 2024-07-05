@@ -40,7 +40,7 @@ body {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    margin-left: 95%;
+    margin-left: 92%;
     position: absolute;
 }
 #IconMenu{
@@ -74,9 +74,9 @@ body {
 
 .Cajas{
     position: absolute;
-    display: flex;
+    display: grid;
     background-color: yellow;
-    width: 110rem;
+    width: 90%;
     height: 10rem;
     margin-top: 17rem;
 }

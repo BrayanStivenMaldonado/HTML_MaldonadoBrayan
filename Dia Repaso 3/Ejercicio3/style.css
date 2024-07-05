@@ -1,4 +1,94 @@
-.Caminante{
-    display: flex;
-    justify-content: center;
+body{
+    margin: 0%;
+    width: 100vw;
+    overflow: hidden;
+}
+#Mostrar{
+    margin-top: 12rem;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    left: 115rem; 
+    animation-name: move;
+    animation-duration: 10.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#Caminante{
+    position: relative;
+    animation-name: walk;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    top: -282rem;
+}
+
+@keyframes walk {
+    0%{
+        top: 0rem;
+    }
+    10%{
+        top: 0rem;
+    }
+    10.1%{
+        top: -31rem;
+    }
+    20%{
+        top:-31rem;
+    }
+    20.1%{
+        top:-62.5rem;
+    }
+    30%{
+        top: -62.5rem;
+    }
+    30.1%{
+        top: -94.5rem;
+    }
+    40%{
+        top: -94.5rem;
+    }
+    40.1%{
+        top: -126rem;
+    }
+    50%{
+        top: -126rem;
+    }
+    50.1%{
+        top: -157rem;
+    }
+    60%{
+        top: -157rem;
+    }
+    60.1%{
+        top: -188rem;
+    }
+    70%{
+        top: -188rem;
+    }
+    70.1%{
+        top: -219rem;
+    }
+    80%{
+        top: -219rem;
+    }
+    80.1%{
+        top: -250rem;
+    }
+    90%{
+        top: -250rem;
+    }
+    90.1%{
+        top: -282rem;
+    }
+    100%{
+        top: -282rem;
+    }
+} 
+@keyframes move {
+    100%{
+        left: 10rem;
+    }
 }

@@ -11,6 +11,10 @@ body {
     justify-content: center;
 }
 
+.Caja p{
+    height: 2em;
+}
+
 .U{
     animation-name: U;
     animation-duration: 5s;

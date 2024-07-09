@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo{
+    margin-top: 12rem;
+    width: 20rem;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Primera{
+    background-color: red;
+    width: 2.5rem;
+    height: 13rem;
+    animation-name: First;
+    animation-duration: 1.2s;
+}
+
+@keyframes First {
+ 0%{margin-top: 30rem;}
+ 100%{margin-top: 0rem;}
+}
+
+.Segunda{
+    background-color:red;
+    width: 2.5rem;
+    height: 13rem;
+    transform: skew(20deg);
+    box-shadow: -27px -16px 35px -7px rgba(0,0,0,0.78);
+    animation-name: Second;
+    animation-duration: 2.4s;
+}
+
+@keyframes Second {
+    0%{height: 0rem;}
+    55%{height: 0rem;}
+    100%{height: 13rem;}
+   }
+
+
+.Tercera{
+    background-color:red;
+    width: 2.5rem;
+    height: 13rem;
+    animation-name: Third;
+    animation-duration: 3.6s;
+}
+
+@keyframes Third {
+    0%{margin-top: 30rem;}
+    45%{margin-top: 30rem;}
+    100%{margin-top: 0rem;}
+   }
+
+   .Cortar{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    width: 10rem;
+    height: 4rem;
+    border-radius: 35%;
+    margin-top: 12.5rem;
+   }

@@ -40,7 +40,7 @@ p{
     margin-bottom: 1rem;
 }
 
-#Boton {
+#Botoncito {
     border-radius: 0.2rem;
     background-color: #2c9cb8;
     margin: auto;
@@ -50,7 +50,7 @@ p{
     padding: 0.5rem;
     width: 20rem;
 }
-#Boton:hover{
+#Botoncito:hover{
     background-color: #f4546c;
 }
 

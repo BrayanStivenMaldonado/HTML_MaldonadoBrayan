@@ -72,3 +72,23 @@ body{
     margin-top: 5rem;
     box-shadow: inset 10px -50px 20px -20px black;
 }
+
+span{
+    background: #f2f2f2;
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    transform: translateY(-137.55px) rotate(calc(10deg*var(--i)));
+    transform-origin: 0px 150px;
+    filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.15));
+}
+
+span::after{
+    background: #fff;
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 12px;
+    transform: rotate(5deg);
+    transform-origin: 0 150px;
+}
